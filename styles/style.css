@@ -169,6 +169,47 @@ nav li a {
     padding-top: 30px;
 }
 
+.facts {
+    padding: 50px 228px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.fact-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-cards {
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.fact-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.fact-des {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.fact-content {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 50%;
+}
+
 @media screen and (max-width:576px) {
     header {
         padding: 20px;
@@ -224,6 +265,25 @@ nav li a {
         bottom: 60px;
         padding: 8px;
     }
+
+    .facts {
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .fact-card {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .f-cards {
+        width: 70%;
+        margin-left: 3rem;
+    }
+
+    .fact-content {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:1024px) {
@@ -277,6 +337,25 @@ nav li a {
         width: 50%;
         height: 100%;
         padding: 20px;
+    }
+
+    .facts {
+        padding: 50px;
+        padding-top: 0;
+    }
+
+    .fact-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .f-cards {
+        width: 75%;
+        margin-left: 2rem;
+    }
+
+    .fact-content {
+        width: 70%;
     }
 
 }
