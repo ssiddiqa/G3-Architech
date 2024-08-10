@@ -210,6 +210,40 @@ nav li a {
     width: 50%;
 }
 
+.foot {
+    margin-top: auto;
+    padding: 0 228px;
+}
+
+.logo {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.filter {
+    filter: grayscale(100%);
+    width: 10%;
+    margin-left: 5rem;
+}
+
+.sponsor {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.foot-d {
+    color: #727272;
+    margin: 0 16rem;
+}
+
+.foot-des {
+    text-align: center;
+    background: rgba(255, 144, 14, 0.10000000149011612);
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+
 @media screen and (max-width:576px) {
     header {
         padding: 20px;
@@ -283,6 +317,23 @@ nav li a {
 
     .fact-content {
         width: 100%;
+    }
+
+    .foot {
+        padding: 20px;
+    }
+
+    .sponsor {
+        margin: 0;
+    }
+
+    .foot-d {
+        margin: 0;
+    }
+
+    .filter {
+        margin-left: 5px;
+        width: 15%;
     }
 }
 
@@ -358,4 +409,13 @@ nav li a {
         width: 70%;
     }
 
+    .foot {
+        padding: 50px;
+    }
+
+    .filter {
+        padding: auto;
+        width: 10%;
+        margin: 0 2.3rem;
+    }
 }
